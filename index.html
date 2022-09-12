@@ -176,8 +176,85 @@
 		</div>
 
 		<div class="practice">
+			<h1>September 12th</h1>
+			<fieldset>
+				<legend> This is a form group - button test</legend>
+			<label for="imgbutton">Add image: </label>
+			<input type="image" id="imgbutton" src="img/add.gif" onclick="alert('YO')">
+			<p>
+				<button>
+					<img src="img/add.gif" alt="add button">
+					ADD 
+				</button>
+			</p>
+
+		</fieldset>
+
+		<form>
+		<fieldset>
+			<legend>HTML 5 form controls</legend>
+			<p>Please select you favorite color
+				<input type="color" name="favcolor">
+			</p>
+			<p>Please select the date
+				<input type="date" name="selectdate">
+			</p>
+			<p> Please input the time
+				<input type="time" name="inputTime">
+			</p>
+			<p> Email:
+				<input type="email" placeholder="username@usca.edu" autofocus name="inputEmail">
+			</p>
+			<p>***Name: 
+				<input type="name" placeholder="Christian" required>
+			</p>
+			<p> Please input a url
+				<input type="url" name="inputURL">
+			</p>
+			<p> Please input a telephone number
+				<input type="tel" placeholder="(###) ###-####" pattern="\d{3}-\d{3}-\d{4}" name="inputTel">
+			</p>
+			<p> Please search here
+				<input type="search" name="searchHere">
+			</p>
+			<p>
+				<input type="submit" value="Click to submit">
+			</p>
 
 
+		</fieldset>
+
+		</form>
+
+
+		<form>
+			<fieldset>
+				<p>CREATE A NEW ACCOUnT</p>
+				<p>It's free and always will be.</p>
+				<p>
+					First Name
+				<input type="text" placeholder="First Name" name="inputName"> <br> <br>
+					Last Name
+				<input type="text" placeholder="Last Name" name="inputName2"><br> <br>
+					Email
+				<input type="email" placeholder="name@usca.edu" name="inputEmail"><br> <br>
+					Phone Number
+				<input type="tel" placeholder="###-###-####" pattern="\d{3}-\d{3}-\d{4}" name="inputNumber"><br> <br>
+					Password
+				<input type="text" placeholder="New Password" name="inputPassword"><br> <br>
+				</p>
+				<p>Birthday</p>
+				<p>
+					<input type="date" name="selectDate">
+				</p>
+				<p>Select your gender</p>
+				<p>
+					<input type="radio" name="gender" value="female"> Female
+					<input type="radio" name="gender" value="male"> Male
+				</p>
+				
+			</fieldset>
+		</form>
 		</div>
 
 	</div>
